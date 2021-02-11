@@ -1,0 +1,3 @@
+filename=input("Enter the filename:")
+f_exts=filename.split(".")
+print(f"The given file has extension {f_exts[-1]}")
